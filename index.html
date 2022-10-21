@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film finder</title>
+    <script
+      defer
+      type="text/javascript"
+      src="./movie_database_example.js"
+    ></script>
+    <script defer type="text/javascript" src="./test.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Winc Film finder</h1>
+      </header>
+      <nav class="nav">
+        <div>
+          <input type="radio" id="latest" value="latest" name="film-filter" />
+          <label>Latest movies, 2014 and newer</label>
+        </div>
+        <div>
+          <input type="radio" id="avenger" value="avenger" name="film-filter" />
+          <label>Avenger movies</label>
+        </div>
+        <div>
+          <input type="radio" id="x-men" value="x-men" name="film-filter" />
+          <label>X-Men movies</label>
+        </div>
+        <div>
+          <input type="radio" id="princess" value="princess" name="film-filter" />
+          <label>Princess movies</label>
+        </div>
+        <div>
+          <input type="radio" id="batman" value="batman" name="film-filter" />
+          <label>Batman movies</label>
+        </div>
+        <br><br>
+      </nav>      
+      <div class="center">Search:<input type="search" id="search" name="film-filter" />
+          <br><br>
+        </div>
+      <div class="movies">
+        <ul id="list"></ul>
+      </div>
+    </div>
+    <footer>
+    <h1>
+      <a href="https://facts.be/en/" target="_blank">Visit FACTS - Your Belgian Comic Con</h1></a>
+    </h1>
+  </footer>
+  </body>  
+</html>
